@@ -1,5 +1,5 @@
-# -2024
-Производственная практика
+# 2024
+# Производственная практика
 Описание метода АКАР: http://scp.ictis.sfedu.ru/study/2-6.html
 Дополнительные примеры: https://docs.google.com/document/d/1HYbbrJyv_rf_rrufKAKyqvhEdYJN3KOi/edit
  
