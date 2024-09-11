@@ -1,0 +1,41 @@
+
+\documentclass{article}
+\usepackage{fontspec}         % Поддержка шрифтов Unicode
+\usepackage{polyglossia}       % Поддержка многоязычности
+\setmainlanguage{russian}      % Основной язык документа
+\setmainfont{Times New Roman}  % Установка шрифта, который поддерживает Unicode
+\begin{document}
+\section*{Решение задачи}
+\textbf{Производные x1 и x2 по времени:} \\
+\[
+\frac{dx1}{dt} = x_{1}^{2}{\left(t \right)} + x_{2}{\left(t \right)}
+\]
+\[
+\frac{dx2}{dt} = u{\left(t \right)}
+\]
+
+\textbf{Пси функция:} \\
+\[
+\psi = B x_{1}{\left(t \right)} + a x_{1}^{2}{\left(t \right)} + x_{2}{\left(t \right)}
+\]
+
+\textbf{Производная Пси функции:} \\
+\[
+\frac{d\psi}{dt} = B \left(x_{1}^{2}{\left(t \right)} + x_{2}{\left(t \right)}\right) + 2 a \left(x_{1}^{2}{\left(t \right)} + x_{2}{\left(t \right)}\right) x_{1}{\left(t \right)} + u{\left(t \right)}
+\]
+
+\textbf{Функциональное уравнение:} \\
+\[
+T_1 \cdot \frac{d\psi}{dt} + \psi = 0
+\]
+Упрощённое уравнение: \\
+\[
+B x_{1}{\left(t \right)} + T_{1} \left(B \left(x_{1}^{2}{\left(t \right)} + x_{2}{\left(t \right)}\right) + 2 a \left(x_{1}^{2}{\left(t \right)} + x_{2}{\left(t \right)}\right) x_{1}{\left(t \right)} + u{\left(t \right)}\right) + a x_{1}^{2}{\left(t \right)} + x_{2}{\left(t \right)} = 0
+\]
+
+\textbf{Цель :} \\
+\[
+u = \frac{- B x_{1}{\left(t \right)} + T_{1} \left(- B x_{1}^{2}{\left(t \right)} - B x_{2}{\left(t \right)} - 2 a x_{1}^{3}{\left(t \right)} - 2 a x_{1}{\left(t \right)} x_{2}{\left(t \right)}\right) - a x_{1}^{2}{\left(t \right)} - x_{2}{\left(t \right)}}{T_{1}}
+\]
+
+\end{document}
